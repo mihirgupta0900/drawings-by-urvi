@@ -5,7 +5,7 @@ const ThemeToggle = () => {
   return (
     <DarkModeToggle
       onChange={toggleTheme}
-      size={32}
+      size={40}
       speed={4}
       checked={theme}
     />
