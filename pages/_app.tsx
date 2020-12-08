@@ -1,6 +1,7 @@
 import useDarkMode from "use-dark-mode";
 import { ThemeProvider } from "../components/ThemeProvider";
 import "../styles/globals.css";
+import "../styles/masonry.scss";
 
 function MyApp({ Component, pageProps }) {
   const darkMode = useDarkMode(false, {
